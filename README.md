@@ -57,8 +57,8 @@ To set up and run the MERN Student Information Management Application, follow th
 
 ## Usage
 
-- To create a new student record, click the `Add New Student` button and fill in the required information.
-- To view the list of all student records, visit the homepage.
-- To update an existing student record, click the `Edit` icon next to the student's information on the homepage.
-- To delete a student record, click the `Delete` icon next to the student's information on the homepage.
+1. To create a new student record, click the `Add New Student` button and fill in the required information.
+2. To view the list of all student records, visit the homepage.
+3. To update an existing student record, click the `Edit` icon next to the student's information on the homepage.
+4. To delete a student record, click the `Delete` icon next to the student's information on the homepage.
 
