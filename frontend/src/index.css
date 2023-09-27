@@ -1,0 +1,308 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(5, 4, 21);
+}
+
+.App {
+    max-width: 1350px;
+    margin: 0 auto;
+}
+
+/* Navbar */
+
+.navbar div {
+    background-color: rgb(26, 18, 52);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.nav-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100px;
+    padding: 1rem;
+    margin: 0 auto;
+}
+
+.nav-items button {
+    padding: 0.7rem 1rem;
+    background-color: rgb(54, 48, 239);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: white;
+    font-size: 1rem;
+    font-weight: bolder;
+    border-radius: 0.5rem;
+}
+
+.nav-items button:hover {
+    background-color: rgb(63, 58, 195);
+    transition: all 0.3s ease-in-out;
+}
+
+.home-nav {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+
+/* Form */
+
+.form {
+    margin-top: 5rem;
+    height: 46rem;
+    display: flex;
+    justify-content: center;
+}
+
+.form img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.form h1 {
+    color: white;
+    margin: 2rem 0;
+    margin-left: 1rem;
+    margin-bottom: 3rem;
+}
+
+.form figure {
+    width: 50%;
+    height: 95%;
+    margin: 2rem 1rem;
+    background-color: antiquewhite;
+}
+
+.form figcaption {
+    color: white;
+    font-size: 2rem;
+    margin: 1rem;
+    margin-top: -4.5rem;
+    padding: 2rem;
+    font-weight: bold;
+    color: rgb(185, 187, 190);
+}
+
+form {
+    width: 30rem;
+}
+
+.form-feild {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    color: white;
+    font-weight: bolder;
+}
+
+.form-feild input {
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    width: 100%;
+    margin-top: 1rem;
+    padding: 1rem 1rem;
+    border-radius: 0.5rem;
+    background-color: rgb(29, 33, 71);
+    color: white;
+}
+
+.form div p {
+    color: rgb(233, 29, 29);
+    margin-top: 0.5rem;
+}
+
+.create-usr {
+    width: 97%;
+    padding: 0.8rem 1rem;
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+    background-color: rgb(54, 48, 239);
+    border: none;
+    color: white;
+    font-weight: bolder;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 2px 2px black;
+    cursor: pointer;
+}
+
+@media(max-width: 870px) {
+    .form {
+        flex-direction: column;
+        height: 100vh;
+    }
+
+    .form figure {
+        width: 100%;
+        height: 60%;
+        margin: 0rem auto;
+        margin-top: 40rem;
+    }
+
+    .form figcaption {
+        color: white;
+        font-size: 2rem;
+        margin-top: -4.5rem;
+        padding: 2rem;
+        font-weight: bold;
+        color: rgb(185, 187, 190);
+    }
+
+    .form button {
+        margin-bottom: 2rem;
+    }
+
+    form {
+        width: 100%;
+        margin-top: 5rem;
+    }
+
+    form h1 {
+        text-align: center;
+    }
+}
+
+@media(max-width:590px) {
+    .form figcaption {
+        font-size: 1.8rem;
+    }
+}
+
+@media(max-width:430px) {
+    .form figcaption {
+        font-size: 1.5rem;
+    }
+}
+
+@media(max-width:300px) {
+    .form figcaption {
+        display: none;
+    }
+
+    form {
+        margin-top: 1rem;
+    }
+}
+
+/* Home Page */
+
+.home {
+    color: white;
+    width: 100%;
+}
+
+.home h1{
+    color: white;
+    margin-top: 7rem;
+    /* text-align: center; */
+}
+
+.student-table {
+    width: 95%;
+    border-collapse: collapse;
+    margin-top: 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    border-radius: 6px;
+    overflow-x: auto;
+    height: fit-content;
+    /* max-width: fit-content;
+    max-height: fit-content; */
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 7rem;
+}
+
+.sl-no{
+    background-color: rgb(41, 46, 99);
+}
+
+.student-table table {
+    width: 100%;
+    border-collapse: collapse;
+    min-width: max-content;
+}
+
+.student-table th,
+.student-table td {
+    padding: 12px 20px;
+    text-align: left;
+}
+
+.student-table th {
+    background-color: rgb(54, 48, 239);
+    font-weight: 600;
+    text-transform: uppercase;
+    color: white;
+}
+
+.student-table tr {
+    background-color: rgb(29, 33, 71);
+}
+
+.student-name-img {
+    display: flex;
+    align-items: center;
+}
+
+.student-name-img img{
+    height: 4rem;
+    border-radius: 50%;
+    margin-right: 0.8rem;
+}
+
+.student-table button{
+    font-size: 1.5rem;
+    cursor: pointer;
+    background-color: rgb(29, 33, 71);
+    border: none;
+    color: white;
+}
+
+.student-table button:hover{
+    color: rgb(111, 167, 245);
+    transition: all 0.3s ease-in-out;
+}
+
+.action-btn{
+    display: flex;
+    align-items: baseline;
+    gap: 1rem;
+}
+
+@media(max-width: 1300px) {
+    .student-table {
+        width: 100%;
+    }
+    table thead{
+        display: none;
+    }
+    table, tbody, tr, td{
+        display: block;
+        width: 100vw;
+    }
+    tr{
+        margin-bottom: 1rem;
+    }
+}
+
+/* Not Found Page */
+.not-found{
+    color: white;
+    text-align: center;
+    margin-top: 10rem;
+}
