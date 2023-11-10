@@ -9,7 +9,11 @@
     "routes": [
         {
             "src": "/(.*)",
-            "dest": "/"
+            "dest": "https://student-info-management-backend.vercel.app/$1",
+            "methods": ["GET", "POST", "PUT", "DELETE"],
+            "headers": {
+              "Access-Control-Allow-Origin": "https://student-info-management-frontend.vercel.app"
+            }
         }
     ]
 }
