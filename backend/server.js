@@ -20,6 +20,7 @@ const PORT = process.env.PORT || 4000;
 app.use(express.json());
 
 // app.use("/api/v1", studentRoutes);
+app.use("/", studentRoutes);
 
 // CORS Configuration
 app.listen(PORT, () => {
