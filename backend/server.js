@@ -10,7 +10,7 @@ var cors = require("cors");
 
 app.use(
   cors({
-    origin: "*",
+    origin: "https://student-info-management-frontend.vercel.app/",
   })
 );
 
