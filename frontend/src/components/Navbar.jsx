@@ -3,7 +3,7 @@ import { NavLink, useNavigate, useLocation } from "react-router-dom";
 function Navbar() {
 
   const navigate = useNavigate();
-  const location = useLocation();
+  const currentLocation = useLocation();
 
   return (
     <div className="navbar">
@@ -13,7 +13,7 @@ function Navbar() {
             Home
           </NavLink>
           {
-              location.pathname === "/" ? (
+              currentLocation.pathname === "/" ? (
                 <NavLink to="/createStudent">
                   <button className="add-usr">Add New Student</button>
                 </NavLink>
