@@ -1,6 +1,8 @@
 # Student Information Management Application
 
 ## Preview
+![ScreenShot Tool -20240514210929](https://github.com/Man0sh-r0y/Student-Information-Management-Application/assets/96605313/73d51add-0dac-44d1-b47d-d4fa340c72b6)
+
 ![Screenshot from 2024-05-14 21-07-38](https://github.com/Man0sh-r0y/Student-Information-Management-Application/assets/96605313/ca951cb8-66b1-4ec9-967f-ea9e6efe7d45)
 
 ## Overview
