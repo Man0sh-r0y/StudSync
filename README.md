@@ -1,4 +1,4 @@
-# Student Information Management Application
+# StudSync
 
 ## Preview
 ![ScreenShot Tool -20240514210929](https://github.com/Man0sh-r0y/Student-Information-Management-Application/assets/96605313/73d51add-0dac-44d1-b47d-d4fa340c72b6)
