@@ -1,5 +1,8 @@
 # Student Information Management Application
 
+## Preview
+![Screenshot from 2024-05-14 21-07-38](https://github.com/Man0sh-r0y/Student-Information-Management-Application/assets/96605313/ca951cb8-66b1-4ec9-967f-ea9e6efe7d45)
+
 ## Overview
 
 The MERN Student Information Management Application is a web-based tool that allows users to manage student data. It enables users to perform the following actions:
