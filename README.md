@@ -1,4 +1,5 @@
 # StudSync
+It's a Student Information Management Application and it is a web-based tool built with MongoDB, Express.js, React.js, and Node.js. It enables users to create, update, view, and delete student records, making it easy to manage student data efficiently.
 
 ## Preview
 ![ScreenShot Tool -20240514210929](https://github.com/Man0sh-r0y/Student-Information-Management-Application/assets/96605313/73d51add-0dac-44d1-b47d-d4fa340c72b6)
